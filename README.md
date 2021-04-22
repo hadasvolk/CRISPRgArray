@@ -1,4 +1,4 @@
-# gRNA_IP_Step1
+# CRISPRgArray 
 #
 # Generating gRNAs for mutations, SNPs and non-discriminatory ranges
 #
