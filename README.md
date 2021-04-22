@@ -13,23 +13,23 @@ Outputs excel sheet file for each table and QA for testing guides listed in Info
 Hadas Volkov - AppliedGenomics 04/2020<br/>
 """
 
-Usage: ./gRNAs_Step1.sh -i [] -o [] -t [all/mut/snp/nd]
-        -i Input xlsx file on s3
-        -o output s3 directory
-        -t Description of what gRNAs to produce
+Usage: ./gRNAs_Step1.sh -i [] -o [] -t [all/mut/snp/nd]<br/>
+        -i Input xlsx file on s3<br/>
+        -o output s3 directory<br/>
+        -t Description of what gRNAs to produce<br/>
 
-Mandatory Sheets and Headers for Input Excel File:
-  Sheet1 - "user", "email", "purpose", "service"
-  Info - "GeneName", "Chromosome", "RefSeqTranscript",
-      "GenomeAssembly", "GeneStartPos", "GeneEndPos", "Strand", "SpacerSizes",
-      "PAMsize", "TestingGuides", "AdditionalPAMs"
-  Mutations - "Chromosome", "Position", "rsID", "Reference",
-      "Alternate", "Source", "TranscriptConsequence"
-  SNPs - "Chromosome", "SNPStartPosition", "SNPEndPos", "MinHetFreq"
-  non-discriminatory - "RegionName", "Chromosome", "RegionStartPosition",
-      "RegionEndPosition", "ClosestExon"
+Mandatory Sheets and Headers for Input Excel File:<br/>
+  Sheet1 - "user", "email", "purpose", "service"<br/>
+  Info - "GeneName", "Chromosome", "RefSeqTranscript",<br/>
+      "GenomeAssembly", "GeneStartPos", "GeneEndPos", "Strand", "SpacerSizes",<br/>
+      "PAMsize", "TestingGuides", "AdditionalPAMs"<br/>
+  Mutations - "Chromosome", "Position", "rsID", "Reference",<br/>
+      "Alternate", "Source", "TranscriptConsequence"<br/>
+  SNPs - "Chromosome", "SNPStartPosition", "SNPEndPos", "MinHetFreq"<br/>
+  non-discriminatory - "RegionName", "Chromosome", "RegionStartPosition",<br/>
+      "RegionEndPosition", "ClosestExon"<br/>
 
-cfg.py - Paths and Headers format
+cfg.py - Paths and Headers format<br/>
 
 Requriments:
   Python 3.6.10
