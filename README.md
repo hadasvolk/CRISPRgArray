@@ -4,7 +4,7 @@
 #
 
 """<br/>
-gRNA4Patents step1 produce guides for Mutation, SNPs and non-discriminatory
+Produce guides for Mutation, SNPs and non-discriminatory
 tables in an input Excel file.
 All listings refer to  the human reference genome GRCh38 assembly
 
