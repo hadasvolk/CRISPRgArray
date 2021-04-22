@@ -3,14 +3,14 @@
 # Generating gRNAs for mutations, SNPs and non-discriminatory ranges
 #
 
-"""
+"""<br/>
 gRNA4Patents step1 produce guides for Mutation, SNPs and non-discriminatory
 tables in an input Excel file.
 All listings refer to  the human reference genome GRCh38 assembly
 
 Outputs excel sheet file for each table and QA for testing guides listed in Info sheet
 
-Hadas Volkov - AppliedGenomics 04/2020
+Hadas Volkov - AppliedGenomics 04/2020<br/>
 """
 
 Usage: ./gRNAs_Step1.sh -i [] -o [] -t [all/mut/snp/nd]
